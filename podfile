@@ -1,0 +1,21 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '10.0'
+inhibit_all_warnings!
+use_frameworks!
+
+target 'Fang' do
+
+pod 'SnapKit'
+
+pod 'UMCCommon', '~> 2.1.1'
+pod 'UMCAnalytics', '~> 6.0.5'
+pod 'UMCCommonLog', '~> 1.0.0'
+#pod 'UMCShare/Social/ReducedWeChat'
+pod 'UMCShare/Social/WeChat', '~> 6.9.10'
+#pod 'WechatOpenSDK'
+
+end
+
+
+
